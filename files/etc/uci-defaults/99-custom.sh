@@ -16,7 +16,7 @@ uci del dhcp.lan.dhcpv6
 uci set dhcp.lan.ignore='1'
 # /etc/config/network
 uci del network.lan.ip6assign
-uci set network.lan.ipaddr='192.168.2.2'
+uci set network.lan.ipaddr='192.168.2.9'
 uci set network.lan.netmask='255.255.255.0'
 uci set network.lan.gateway='192.168.2.1'
 uci add_list network.lan.dns='192.168.2.1'

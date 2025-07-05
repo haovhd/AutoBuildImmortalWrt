@@ -57,7 +57,7 @@ jobs:
           PLATFORM="amd64"
           mkdir -p files/etc/openclash/core
           # Download clash_meta
-          META_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/smart/clash-linux-${PLATFORM}.tar.gz"
+          META_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/meta/clash-linux-${PLATFORM}.tar.gz"
           wget -qO- $META_URL | tar xOvz > files/etc/openclash/core/clash_meta
           chmod +x files/etc/openclash/core/clash_meta
           # Download GeoIP and GeoSite

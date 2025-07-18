@@ -25,3 +25,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
 # MosDNS
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
+# openclash
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash"

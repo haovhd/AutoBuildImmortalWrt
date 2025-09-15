@@ -28,7 +28,9 @@ uci del firewall.cfg01e63d.fullcone
 uci del firewall.cfg01e63d.fullcone6
 uci del firewall.cfg01e63d.flow_offloading
 uci del firewall.cfg01e63d.flow_offloading_hw
+#IP动态伪装
 uci set firewall.cfg02dc81.masq='1'
+#转发接受
 uci set firewall.cfg01e63d.forward='ACCEPT'
 
 # 设置所有网口可访问网页终端

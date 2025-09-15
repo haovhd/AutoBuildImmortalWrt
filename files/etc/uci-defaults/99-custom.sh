@@ -29,6 +29,7 @@ uci del firewall.cfg01e63d.fullcone6
 uci del firewall.cfg01e63d.flow_offloading
 uci del firewall.cfg01e63d.flow_offloading_hw
 uci set firewall.cfg02dc81.masq='1'
+uci set firewall.cfg01e63d.forward='ACCEPT'
 
 # 设置所有网口可访问网页终端
 uci delete ttyd.@ttyd[0].interface

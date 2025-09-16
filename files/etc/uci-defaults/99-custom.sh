@@ -30,6 +30,8 @@ uci del firewall.cfg01e63d.flow_offloading
 uci del firewall.cfg01e63d.flow_offloading_hw
 #IP动态伪装
 uci set firewall.cfg02dc81.masq='1'
+#入站数据接受
+uci set firewall.cfg01e63d.input='ACCEPT'
 #转发接受
 uci set firewall.cfg01e63d.forward='ACCEPT'
 

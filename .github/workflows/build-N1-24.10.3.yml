@@ -1,4 +1,4 @@
-name: build-N1
+name: build-N1-24.10.3
 on:
   workflow_dispatch:
     inputs:
@@ -222,4 +222,5 @@ jobs:
           files: |
             ${{ env.PACKAGED_OUTPUTPATH }}/*.img.gz
         env:
+
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
